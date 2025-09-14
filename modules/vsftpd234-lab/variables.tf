@@ -1,3 +1,8 @@
+variable "attendee_name" {
+    description = "Name of each attendee so we can tell which VM belongs to who"
+    type        = string
+}
+
 variable "attendee_number" {
     description = "Used to create a separate subnet for each individual attendee"
     type        = string

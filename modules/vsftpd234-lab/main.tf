@@ -87,7 +87,7 @@ resource "aws_instance" "kali-vm" {
   key_name = "terraform-key-pair"
 
   tags = {
-    Name = "KALI-VM-${var.attendee_number}"
+    Name = "KALI-VM-${var.attendee_number}-${var.attendee_name}"
   }
 }
 
@@ -105,6 +105,6 @@ resource "aws_instance" "vsftpd234-vm" {
   key_name = "terraform-key-pair"
 
   tags = {
-    Name = "Target-VM-${var.attendee_number}"
+    Name = "Target-VM-${var.attendee_number}-${var.attendee_name}"
   }
 }
