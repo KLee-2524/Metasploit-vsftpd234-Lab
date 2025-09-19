@@ -65,6 +65,7 @@ variable "kali_setup_script" {
     wget -O remoteshell.pcap https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dns-remoteshell.pcap
     wget https://github.com/KLee-2524/Metasploit-vsftpd234-Lab/raw/refs/heads/9-19-25_kali_workshop/dns.cap
     wget https://raw.githubusercontent.com/KLee-2524/Metasploit-vsftpd234-Lab/9-19-25_kali_workshop/SUPER_SECRET_MESSAGE.txt
+    wget https://github.com/KLee-2524/Metasploit-vsftpd234-Lab/raw/refs/heads/9-19-25_kali_workshop/northwind.db
     cd ~
     echo "Sample pcap(s) and ciphertext file downloaded" >> /home/kali/FAST/setup_log.txt
 
@@ -144,5 +145,6 @@ variable "target_setup_script" {
     EOT
 
 }
+
 
 
