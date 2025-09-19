@@ -25,7 +25,10 @@ variable "attendee_usernames" {
   type = list(string)
 
   default = [
-    "ewatson@cpp.edu"
+    "kaleblee@cpp.edu",
+    "leang@cpp.edu",
+    "tagyulai@cpp.edu",
+    "shiggins@cpp.edu"
   ]
 }
 
