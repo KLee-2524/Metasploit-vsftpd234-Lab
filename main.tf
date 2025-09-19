@@ -32,21 +32,7 @@ variable "attendee_usernames" {
     "aelumalai@cpp.edu",
     "asrinivas1@cpp.edu",
     "joelinares@cpp.edu",
-    "glnu@cpp.edu",
-    "sthilak@cpp.edu",
-    "salameddine@cpp.edu",
-    "mtrogers@cpp.edu",
-    "dieu@cpp.edu",
-    "jif@cpp.edu",
-    "ibrispin@cpp.edu",
-    "bleslie@cpp.edu",
-    "josertorres@cpp.edu",
-    "jrwoline@cpp.edu",
-    "similian@cpp.edu",
-    "zhichengliao@cpp.edu",
-    "chung1@cpp.edu",
-    "aelumalai@cpp.edu",
-    "lquon@cpp.edu"
+    "glnu@cpp.edu"
   ]
 }
 
@@ -66,4 +52,5 @@ module "vsftpd234-lab" {
     route_table_id  = aws_route_table.FAST-route-table.id
 
 }
+
 
