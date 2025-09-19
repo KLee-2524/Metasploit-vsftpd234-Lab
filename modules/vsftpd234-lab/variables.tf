@@ -63,9 +63,10 @@ variable "kali_setup_script" {
 
     cd /home/kali/FAST
     wget -O remoteshell.pcap https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dns-remoteshell.pcap
+    wget https://github.com/KLee-2524/Metasploit-vsftpd234-Lab/raw/refs/heads/9-19-25_kali_workshop/dns.cap
     wget https://raw.githubusercontent.com/KLee-2524/Metasploit-vsftpd234-Lab/9-19-25_kali_workshop/SUPER_SECRET_MESSAGE.txt
     cd ~
-    echo "Sample pcap and ciphertext file downloaded" >> /home/kali/FAST/setup_log.txt
+    echo "Sample pcap(s) and ciphertext file downloaded" >> /home/kali/FAST/setup_log.txt
 
     sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
     sudo DEBIAN_FRONTEND=noninteractive apt-get full-upgrade -y
@@ -143,4 +144,5 @@ variable "target_setup_script" {
     EOT
 
 }
+
 
