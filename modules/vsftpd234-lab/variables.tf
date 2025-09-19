@@ -74,7 +74,7 @@ variable "kali_setup_script" {
     sudo systemctl enable xrdp --now
     echo "xrdp enabled" >> /home/kali/FAST/setup_log.txt
 
-    sudo echo kali:Metasploit20250730 | sudo chpasswd
+    sudo echo kali:kali20250919 | sudo chpasswd
     echo "User password changed" >> /home/kali/FAST/setup_log.txt
 
     ssh -N -L 3390:127.0.0.1:3390
