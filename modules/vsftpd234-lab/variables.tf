@@ -6,7 +6,7 @@ variable "attendee_name" {
 variable "attendee_number" {
     description = "Used to create a separate subnet for each individual attendee"
     type        = string
-    default     = "24"
+    default     = "10"
 }
 
 variable "vpc_id" {
