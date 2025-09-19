@@ -25,10 +25,29 @@ variable "attendee_usernames" {
   type = list(string)
 
   default = [
-    "kaleblee@cpp.edu",
     "leang@cpp.edu",
-    "tagyulai@cpp.edu",
-    "shiggins@cpp.edu"
+    "kaleblee@cpp.edu",
+    "rcmondejar@cpp.edu",
+    "djc1@cpp.edu",
+    "bkha@cpp.edu",
+    "aelumalai@cpp.edu",
+    "asrinivas1@cpp.edu",
+    "joelinares@cpp.edu",
+    "glnu@cpp.edu",
+    "sthilak@cpp.edu",
+    "salameddine@cpp.edu",
+    "mtrogers@cpp.edu",
+    "dieu@cpp.edu",
+    "jif@cpp.edu",
+    "ibrispin@cpp.edu",
+    "bleslie@cpp.edu",
+    "josertorres@cpp.edu",
+    "jrwoline@cpp.edu",
+    "similian@cpp.edu",
+    "zhichengliao@cpp.edu",
+    "chung1@cpp.edu",
+    "aelumalai@cpp.edu",
+    "lquon@cpp.edu"
   ]
 }
 
@@ -46,4 +65,5 @@ module "vsftpd234-lab" {
     attendee_name   = each.key
     vpc_id          = aws_vpc.FAST-vpc.id
     route_table_id  = aws_route_table.FAST-route-table.id
+
 }
