@@ -61,6 +61,11 @@ variable "kali_setup_script" {
     apt install -y kali-tools-top10
     echo "kali-tools-top10 installation initiated" >> /home/kali/FAST/setup_log.txt
 
+    cd /home/kali/FAST
+    wget -O remoteshell.pcap https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dns-remoteshell.pcap
+    cd ~
+    echo "Sample pcap file downloaded" >> /home/kali/FAST/setup_log.txt
+
     sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
     sudo DEBIAN_FRONTEND=noninteractive apt-get full-upgrade -y
     echo "apt-get udpate & upgrade initiated" >> /home/kali/FAST/setup_log.txt
@@ -135,4 +140,5 @@ variable "target_setup_script" {
 
     echo "NEVER GONNA GIVE YOU UP" > /home/ubuntu/FAST/flag.txt
     EOT
+
 }
