@@ -93,7 +93,7 @@ resource "aws_instance" "kali-vm" {
 
 resource "aws_instance" "vsftpd234-vm" {
   ami           = var.target_ami
-  instance_type = var.instance_type
+  instance_type = "t2.small"
   subnet_id     = aws_subnet.FAST-subnet.id
 
   private_ip = "192.168.${var.attendee_number}.10"
@@ -107,4 +107,5 @@ resource "aws_instance" "vsftpd234-vm" {
   tags = {
     Name = "Target-VM-${var.attendee_number}-${var.attendee_name}"
   }
+
 }
