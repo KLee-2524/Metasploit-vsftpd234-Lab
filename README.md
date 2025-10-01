@@ -15,7 +15,8 @@ I took steps to make my workshop more accessible to any students that were inter
 Unfortunately, despite my efforts, many attendees did not arrive with the appropriate VMs installed. To address this challenge, I leveraged the cloud and infrastructure as code (IaC) skills that I have learned over the course of several classes and internships to create a Terraform IaC template that automatically deploys identical, standardized, and isolated cybersecurity lab environments in the cloud that attendees can easily access via RDP or SSH, which should be included on most if not all computers.
 
 # Metasploit_vsftpd234_Lab
-Automatically deploy up to 256 copies of a penetration testing workshop lab environment consisting of attacking Kali Linux EC2 instances and target Ubuntu EC2 instances running a vulnerable version of vsftpd 2.3.4. The orchestration of these cloud resources should be handled by Terraform with minimal manual configuration on the host's part. Please refer to the accompanying Eboard documentation to view the full workshop preparation, execution, and close out procedures: https://docs.google.com/document/d/18bhQ8ys_vuvzN6DAWv2tGSjqvdMsI9td0NMyAPoQdCw/edit?usp=sharing
+Automatically deploy up to 256 copies of a penetration testing workshop lab environment consisting of attacking Kali Linux EC2 instances and target Ubuntu EC2 instances running a vulnerable version of vsftpd 2.3.4. The orchestration of these cloud resources should be handled by Terraform with minimal manual configuration on the host's part. Please refer to the accompanying [Eboard documentation](https://docs.google.com/document/d/18bhQ8ys_vuvzN6DAWv2tGSjqvdMsI9td0NMyAPoQdCw/edit?usp=sharing) to view the full workshop preparation, execution, and close out procedures: 
 <p align="center">
 <img width="511" height="490" alt="Introduction to Metasploit" src="https://github.com/user-attachments/assets/e32676ec-263f-45cf-a87c-e6df07b1b474" />
 </p>
+
