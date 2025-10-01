@@ -1,10 +1,10 @@
 # Introduction to Metasploit Remake
-In my freshman year, I had the opportunity to lead a hands-on workshop for the Forensics and Security Technology Club (FAST) that explored the foundational concepts of penetration testing and the Lockheed Martin Cyber Kill Chain model. These concepts were accompanied by a hands-on penetration testing lab that guided attendees through the process of a simple penetration test. In this workshop, attendees would have the opportunity to:
+In my freshman year, I had the opportunity to lead a hands-on workshop for the Forensics and Security Technology Club (FAST) that explored the foundational concepts of penetration testing and the [Lockheed Martin Cyber Kill Chain model](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html). These concepts were accompanied by a hands-on penetration testing lab that guided attendees through the process of a simple penetration test. In this workshop, attendees would have the opportunity to:
 
-1. Use Nmap on their Kali Linux virtual machines (VMs) to scan an intentionally vulnerable target Metasploitable 2 VM
+1. Use [Nmap](https://nmap.org/) on their [Kali Linux](https://www.kali.org/) virtual machines (VMs) to scan an intentionally vulnerable target [Metasploitable 2](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/) VM
 2. Indentify the vulnerable service, vsftpd 2.3.4, running on port 21 of the target VM
-3. Use The National Institute of Standards and Technology's (NIST) National Vulnerablity Database (NVD) to gather more information about the target's vulnerability
-4. Leverage The Metasploit Framework to exploit CVE-2011-2523 to exploit the backdoor in the vsftpd 2.3.4 service and gain root access to the target
+3. Use The National Institute of Standards and Technology's ([NIST](https://www.nist.gov/)) National Vulnerablity Database ([NVD](https://nvd.nist.gov/)) to gather more information about the target's vulnerability
+4. Leverage [The Metasploit Framework](https://www.metasploit.com/) to exploit [CVE-2011-2523](https://nvd.nist.gov/vuln/detail/CVE-2011-2523) to exploit the backdoor in the vsftpd 2.3.4 service and gain root access to the target
 
 ## Decreasing Barrier To Entry
 I took steps to make my workshop more accessible to any students that were interested in particpating, such as:
@@ -19,4 +19,5 @@ Automatically deploy up to 256 copies of a penetration testing workshop lab envi
 <p align="center">
 <img width="511" height="490" alt="Introduction to Metasploit" src="https://github.com/user-attachments/assets/e32676ec-263f-45cf-a87c-e6df07b1b474" />
 </p>
+
 
